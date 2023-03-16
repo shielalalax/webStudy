@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- css -->
+	<link rel="stylesheet" href="./index.css">
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito:wght@200&family=Sono&display=swap" rel="stylesheet">
+	<title>CatPhoto App</title>
+</head>
+<body>
+	<div id="title">
+		<h1>CatPhotoApp</h1>
+		<h3>Cat Photos</h3>
+		<p>See more <a href="https://www.pexels.com/search/cats/">cat photos</a> in our gallery </p>
+		<img src="./images/cat.jpeg" alt="cat photo">
+	</div>
+	<div id="cat-list">
+		<h3>Cat Lists</h3>
+		<h4>Things cats love:</h4>
+		<ul>
+			<li>cat nip</li>
+			<li>laser pointers</li>
+			<li> lasagna</li>
+		</ul>
+		<img src="./images/lasagna.jpeg" alt="lasagna">
+		<p>Cats <em>loves</em>lasagna.</p>
+	</div>
+
+	<div id="cats-hate">
+		<h4>Top 3 things cat hate</h4>
+		<ol>
+			<li>flea treatment</li>
+			<li>thunder</li>
+			<li>other cats</li>
+		</ol>
+		<img src="./images/cat-groups.jpeg" alt="cats photo">
+		<p>Cats <strong>hate</strong> others cats.</p>
+	</div>
+
+	<form>
+		<fieldset>
+			<legend>Is your cat an indoor or outdoor car?</legend><br>
+			<input type="radio" name="Indoor" value="Indoor"><label>Indoor</label><br>
+			<input type="radio" name="Outdoor" value="Outdoor"><label>Outdoor</label>
+		</fieldset>
+	</form>
+
+	<form>
+		<fieldset>
+			<legend>What's your cat's personality</legend><br>
+			<input type="checkbox" name="cat-personality">
+			<label>Loving</label><br>
+			<input type="checkbox" name="cat-personality">
+			<label>Lazy</label><br>
+			<input type="checkbox" name="cat-personality">
+			<label>Energetic</label>
+		</fieldset>
+	</form>
+	<form>
+		<input type="text" name="text">
+		<input type="submit" name="submit">
+	</form>
+
+</body>
+</html>
